@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/main.js" async></script>
+        <title>Conversor de Moedas</title>
+    </head>
+    <body>
+        <main class="container">
+            <header class="header">
+                <h1>Conversor de dólares para centavos</h1>
+                <div class="input-area">
+                    <div class="icon">
+                        <img src="./icons/CurrencyDollar.svg" alt="">
+                    </div>
+                    <input id="input" placeholder="Valor em dólar" type="text">
+                    <button id="btn">Converter</button>
+                </div>
+            </header>
+            <section class="table">
+                <h2 id="result">Total cents: 0</h2>
+                <ul>
+                    <li class="t-header">
+                        <div>
+                            <h4>Moedas</h4>
+                        </div>
+                        <div>
+                            <h4>Valor</h4>
+                        </div>
+                    </li>
+                    <li class="t-value">
+                        <div>
+                            <p>Quarters (25 ¢)</p>
+                        </div>
+                        <div>
+                            <p>400</p>
+                        </div>
+                    </li>
+                    <li class="t-value">
+                        <div>
+                            <p>Dimes (10 ¢)</p>
+                        </div>
+                        <div>
+                            <p>0</p>
+                        </div>
+                    </li>
+                    <li class="t-value">
+                        <div>
+                            <p>Nickels (5 ¢)</p>
+                        </div>
+                        <div>
+                            <p>0</p>
+                        </div>
+                    </li>
+                    <li class="t-value">
+                        <div>
+                            <p>Pennies (1 ¢)</p>
+                        </div>
+                        <div>
+                            <p>0</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
